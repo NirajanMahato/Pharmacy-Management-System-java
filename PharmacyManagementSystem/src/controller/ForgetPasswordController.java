@@ -1,3 +1,7 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ */
 package controller;
 
 import java.awt.event.ActionEvent;
@@ -53,7 +57,7 @@ public boolean resetPassword(ForgetPasswordModel user, String newPassword) throw
         rs = stmt.executeQuery(sql);
 
         if (rs.next()) {
-            // User exists with the provided username, password, and food combination
+            // User exists with the provided email, password, and food combination
             String updateSql = "UPDATE login SET passw = ? WHERE email=?";
             PreparedStatement pstmt = conn.prepareStatement(updateSql);
             pstmt.setString(1, newPassword);
