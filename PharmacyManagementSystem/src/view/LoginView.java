@@ -261,8 +261,8 @@ LoginModel model;
     }//GEN-LAST:event_btnForgetActionPerformed
 
     private void btnSignupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSignupActionPerformed
-        PmsRegistrationView d = new PmsRegistrationView();
-            d.setVisible(true);
+//        PmsRegistrationView d = new PmsRegistrationView();
+//            d.setVisible(true);
     }//GEN-LAST:event_btnSignupActionPerformed
 
     private void txtUsernameFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtUsernameFocusGained

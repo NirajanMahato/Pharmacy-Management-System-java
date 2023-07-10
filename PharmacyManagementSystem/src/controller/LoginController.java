@@ -31,8 +31,8 @@ public class LoginController {
                 if(checkUser(model))
                 {
                     view.setMessage("Login Successfully");
-                    DashboardView s1 = new DashboardView();
-                    s1.setVisible(true);
+//                    DashboardView s1 = new DashboardView();
+//                    s1.setVisible(true);
                     view.dispose();
                 }
                 else
