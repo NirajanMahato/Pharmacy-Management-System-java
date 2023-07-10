@@ -1,14 +1,19 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ */
 package model;
 
 public class ForgetPasswordModel {
-    String username,password,schoolname;
+    String username;
+    String password,schoolname;
     public ForgetPasswordModel(String username,String password,String schoolname)
     {
         this.username=username;
         this.password=password;
         this.schoolname=schoolname;    
     }
-    //getter setter method
+    
     public String getUsername() {
         return username;
     }
