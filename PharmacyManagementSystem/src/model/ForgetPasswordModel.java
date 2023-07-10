@@ -6,7 +6,8 @@ package model;
 
 public class ForgetPasswordModel {
     String username;
-    String password,schoolname;
+    String password;
+    String schoolname;
     public ForgetPasswordModel(String username,String password,String schoolname)
     {
         this.username=username;
