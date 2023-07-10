@@ -61,8 +61,6 @@ public class LoginController {
                  return true;
              }
              conn.close();
-            
-          
           }
           catch(Exception e2)
           {
