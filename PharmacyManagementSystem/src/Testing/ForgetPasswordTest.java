@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 public class ForgetPasswordTest {
     public static void main(String[] args) {
         // Set up the test data
-        String email = "nirajanmahato44@gmail.com";
+        String email = "sulavkatuwal01@gmail.com";
         String password = "001234";
         String schoolName = "Monastic";
         
@@ -13,7 +13,7 @@ public class ForgetPasswordTest {
         String result = forgetPassword(email, password, schoolName);
 
         // Verify the result
-        assertEquals("nirajanmahato44@gmail.com, 001234, Monastic", result);   
+        assertEquals("sulavkatuwal01@gmail.com, 001234, Monastic", result);   
     }
 
     public static String forgetPassword(String email, String password, String schoolName){
