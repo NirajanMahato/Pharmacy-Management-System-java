@@ -39,6 +39,7 @@ LoginModel model;
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel8 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         txtUsername = new javax.swing.JTextField();
@@ -55,8 +56,11 @@ LoginModel model;
         jLabel9 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
+
+        jLabel8.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel8.setText("Management System");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Login Page");
@@ -218,7 +222,7 @@ LoginModel model;
         jLabel7.setForeground(new java.awt.Color(0, 0, 102));
         jLabel7.setText("Pharmacy");
         jLabel7.setAlignmentY(1.0F);
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 450, 100));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 450, 100));
 
         jLabel9.setFont(new java.awt.Font("Century Gothic", 1, 33)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(0, 0, 102));
@@ -229,14 +233,7 @@ LoginModel model;
         jLabel11.setForeground(new java.awt.Color(0, 0, 102));
         jLabel11.setText("Contact Us");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 40, -1, -1));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\PMS Sem2\\30 rezise.png")); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, -1));
-
-        jLabel8.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel8.setText("Management System");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Century Gothic", 0, 16)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(0, 0, 102));
